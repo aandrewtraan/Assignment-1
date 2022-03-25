@@ -11,8 +11,17 @@ body {
     color: #312F2F;
     background-color: #312F2F;
     text-align: center;
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 30px auto;
+}
+
+@keyframes fadeInAnimation { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 h1 {
@@ -24,16 +33,7 @@ h2 {
 }
 
 img {
-    border: 2px solid #B3BFB8
-}
-
-@keyframes fadeInAnimation { 
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
+    border: 2px solid #B3BFB8;
 }
 
 hr {
@@ -53,27 +53,32 @@ header {
 .personal-info {
     background-color: #ffd8b5;
     color: #312F2F;
-    padding: 10px;
+    padding: 10px 25px;
     border-bottom: solid 2px #312F2F;
 }
 
 .interest-it {
     background-color: #fff9b5;
-    padding: 10px;
+    padding: 10px 25px;
     border-bottom: solid 2px #312F2F;
 }
 
 .ideal-job {
     background-color: #caffb5;
     color: #312F2F;
-    padding: 10px;
+    padding: 10px 25px;
     border-bottom: solid 2px #312F2F;
 }
 
 .personal-profile {
     background-color: #b5fffb;
-    padding: 10px;
+    padding: 10px 25px;
     border-bottom: solid 2px #312F2F;
+}
+
+.project-idea {
+    background-color: #cca6ff;
+    padding: 10px 25px;
 }
 
 .attributes {
